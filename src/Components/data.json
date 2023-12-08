@@ -1,0 +1,82 @@
+ [
+      {
+        "id": 1,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "description": "A classic novel about the struggles and alienation of a teenage boy named Holden Caulfield.",
+        "rating": 4.5,
+        "price":500
+      },
+      {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "description": "Set in the 1930s, this novel explores racial injustice and moral growth through the eyes of a young girl named Scout Finch.",
+        "rating": 4.8,
+        "price":500
+      },
+      {
+        "id": 3,
+        "title": "1984",
+        "author": "George Orwell",
+        "description": "A dystopian novel set in a totalitarian society, where the government controls every aspect of people's lives.",
+        "rating": 4.7,
+        "price":500
+      },
+      {
+        "id": 4,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "description": "A story of the American Dream, wealth, and love, set against the backdrop of the roaring 1920s.",
+        "rating": 4.6,
+        "price":500
+      },
+      {
+        "id": 1,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "description": "A classic novel about the struggles and alienation of a teenage boy named Holden Caulfield.",
+        "rating": 4.5,
+        "price":500
+      },
+       {
+        "id": 1,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "description": "A classic novel about the struggles and alienation of a teenage boy named Holden Caulfield.",
+        "rating": 4.5,
+        "price":500
+      },
+       {
+        "id": 1,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "description": "A classic novel about the struggles and alienation of a teenage boy named Holden Caulfield.",
+        "rating": 4.5,
+        "price":500
+      },
+      {
+        "id": 1,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "description": "A classic novel about the struggles and alienation of a teenage boy named Holden Caulfield.",
+        "rating": 4.5,
+        "price":500
+      },{
+        "id": 1,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "description": "A classic novel about the struggles and alienation of a teenage boy named Holden Caulfield.",
+        "rating": 4.5,
+        "price":500
+      },{
+        "id": 1,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "description": "A classic novel about the struggles and alienation of a teenage boy named Holden Caulfield.",
+        "rating": 4.5,
+        "price":500
+      }
+    ]
+  
+  

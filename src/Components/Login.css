@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../Assets/laptop-computer-book-workplace-library-room.jpg');
+    margin-top: 200px;
+    padding-bottom: 30px;
+    width: 100%
+    ;
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+input {
+    text-align: center;
+    
+     padding: 800px 640px 800px 640px;  
+    border: none;
+    border-radius: 5px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 0px center; 
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+
+.signup-message {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.signup-message a {
+    color: #0C6180;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
