@@ -1,10 +1,3 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -15,11 +8,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../Assets/laptop-computer-book-workplace-library-room.jpg');
-    margin-top: 200px;
-    padding-bottom: 30px;
+ 
+  
     width: 100%
     ;
-    max-width: 1200px; 
+    max-width: 1300px; 
     margin-left: auto;
     margin-right: auto;
 }
