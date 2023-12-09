@@ -1,20 +1,43 @@
-import React from 'react'
+// import React, { useState } from 'react';
+// import Sidenav from './Sidenav';
+// import { Box } from '@mui/material';
+// import records from './data.json';
+
+// const History = () => {
+//   const [data, setData] = useState(records);
+
+//   return (
+//     <div>
+//       {/* <Sidenav /> */}
+//       {data.map((item) => (
+//         <>
+//         <h1 >{item.description}</h1>
+//         <h2><strong>{item.price}</strong></h2>
+//         </>
+//       ))}
+//     </div>
+//   );
+// };
+
+// export default History;
+import React, { useState } from 'react';
 import Sidenav from './Sidenav';
 import { Box } from '@mui/material';
+import records from './data.json';
+import { useParams } from 'react-router-dom';
+import MCard from './MCard';
 
-const History = (props) => {
+const History = () => {
+  const {description} = useParams();
+  const book = records.find(item=>item.description)
+
   return (
     <div>
-        <Sidenav />
-        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '64px' }}>
-            <Box>
-                <h1>{props.description}</h1>
-                <h2>{props.price}</h2>
-            </Box>
-        </Box>
-       
+       <MCard item={book}></MCard>
     </div>
-  )
-}
+  );
+};
 
 export default History;
+
+

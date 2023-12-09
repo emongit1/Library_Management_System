@@ -35,7 +35,7 @@ function App() {
         <Route path='/admin/adduser' element={<AddUser />} />
         <Route path='/admin/manageuser' element={<ManageUser />} />
         <Route path='/admin/reports' element={<Reports />} />
-        <Route path='/admin/managebokks' element={<ManageBooks />} />
+        <Route path='/admin/managebooks' element={<ManageBooks />} />
 
        
       </Routes>

@@ -9,12 +9,13 @@ import libraryimg from '../Assets/4013889_PNBUOL0.jpeg';
 import { useState } from "react";
 import records from './data.json';
 import { Link } from 'react-router-dom';
+import History from './History';
 
 
 export default function MCard() {
 
   const [data, setData] = useState(records);
-
+ 
 
   return (
     <>
@@ -32,7 +33,6 @@ export default function MCard() {
             </Typography>
           </CardContent>
         </Card>
-        
         </Link>
          
       ))}
